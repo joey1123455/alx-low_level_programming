@@ -1,7 +1,7 @@
 /**
  * main - prints a string onto the screen
  *
- * Return : Always 0 (Successs)
+ * Return: Always 0 (Successs)
 */
 #include <stdio.h>
 int main(void)
@@ -10,4 +10,3 @@ int main(void)
 
 	return (0);
 }
-
