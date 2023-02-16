@@ -1,7 +1,7 @@
 /**
  *main - prints a string onto the screen
  *
- *returns: always 0
+ *Return : always 0
 */
 
 #include <stdio.h>
