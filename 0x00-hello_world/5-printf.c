@@ -3,10 +3,11 @@
  *
  * Return: Always 0 (Successs)
  */
-#include <stdio.h>
+#include <unistd.h>
 
 int main(void)
 {
-	fprintf(stdout, "with proper grammer, but the outcome is a piece of art,\n");
+	write(2,
+	"with proper grammer, but the outcome is a piece of art,\n", 57);
 	return (0);
 }
