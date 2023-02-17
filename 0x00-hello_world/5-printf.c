@@ -3,9 +3,9 @@
 /**
  * main - prints a string using printf
  *
- * Returns: o if succesful
+ * Return: 0 if succesful
  */
-int main() 
+int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
