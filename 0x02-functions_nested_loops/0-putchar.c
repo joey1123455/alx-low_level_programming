@@ -1,17 +1,17 @@
 /**
 * main - uses the _putchar from the main.h header
 *
-* Return : o on success
+* Return: 0 on success
 */
 
-#include <stdio.h>
+#include "main.h"
 
-int main (void)
+int main(void)
 {
-	char s[8] = "_putchar";
-	int i = 0;
+	char s[9] = "_putchar\n";
+	int i;
 
-	for (i; i <= 8; i++)
-		putchar(s[i]);
-		return (0);
+	for (i = 0; i <= 9; i++)
+		_putchar(s[i]);
+	return (0);
 }
