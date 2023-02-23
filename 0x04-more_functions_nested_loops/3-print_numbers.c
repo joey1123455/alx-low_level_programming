@@ -1,6 +1,6 @@
 /**
 * print_numbers - prints char 0 - 9
-* 
+*
 * Return: void
 */
 
