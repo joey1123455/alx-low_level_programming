@@ -12,9 +12,7 @@ void print_numbers(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		if (i == 52 || i == 50)
-			i = i + 1;
-		else
+		if (i != 52 || i != 50)
 			_putchar(i);
 	}
 	_putchar('\n');
