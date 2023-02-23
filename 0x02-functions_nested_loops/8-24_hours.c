@@ -10,16 +10,20 @@ void jack_bauer(void)
 
 	for (i = 0; i <= 9; i++)
 	{
-		_putchar(i);
 		for (j = 0; j <= 9; j++)
 		{
-			_putchar(j + ':');
 			for (k = 0; k <= 9; k++)
 			{
-				_putchar(k);
 				for (l = 0; l <= 9; l++)
 				{
-					_putchar(l);
+					if (!((i == 2) && (j > 3)))
+					{
+						_putchar('0' + i);
+						_putchar('0' + j);
+						_putchar(':');
+						_putchar('0' + k);
+						_putchar('0' + l);
+					}
 				}
 			}
 		}
