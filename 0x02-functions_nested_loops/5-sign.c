@@ -5,6 +5,7 @@
 * Return: 1 positive else return 0 or -1
 */
 
+#include "main.h"
 
 int print_sign(int n)
 {
