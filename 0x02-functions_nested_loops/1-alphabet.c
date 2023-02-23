@@ -1,5 +1,5 @@
 /**
-* main - prints lowercase char using _putchar
+* print_alphabet - prints lowercase char using _putchar
 *
 * Return: 0 on success
 */
@@ -9,7 +9,7 @@
 void print_alphabet(void)
 {
 	int i;
-	
+
 	for (i = 'a'; i <= 'z'; i++)
 	{
 		_putchar(i);
