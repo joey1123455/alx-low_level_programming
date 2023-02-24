@@ -15,8 +15,8 @@ void print_remaining_days(int month, int day, int year)
 	months_cum_days[10] = 334;
 	months_cum_days[11] = 365;
 
-	if ((year % 4 == 0 && year > 1582) && (year % 100 != 0 || year &&
-400 == 0))
+	if ((year % 4 == 0 && year > 1582) && ((year % 100 != 0 || year) &&
+(400 == 0)))
 	{
 		if (month > 2)
 			day++;
