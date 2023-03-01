@@ -12,7 +12,8 @@ void puts_half(char *str)
 	int x, y;
 
 	y = 0;
-	if (*(str + y) != '\0')
+	
+	while (*(str + y) != '\0')
 		y++;
 	x = y % 2 == 0 ? y / 2 : (y / 2) + 1;
 	if (x < y)
