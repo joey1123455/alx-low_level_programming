@@ -15,7 +15,7 @@ void puts_half(char *str)
 	if (y % 2 == 0)
 	{
 		x = y / 2;
-	} else 
+	} else
 	{
 		x = (y + 1) / 2;
 	}
@@ -40,7 +40,7 @@ int _strlen(char *s)
 	int y = 0;
 
 	for (x = 0; s[x] != '\n'; x++)
-		y ++;
+		y += 1;
 	return (y);
 }
 
