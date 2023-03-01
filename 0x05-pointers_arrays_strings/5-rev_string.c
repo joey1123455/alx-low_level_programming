@@ -1,8 +1,7 @@
 #include "main.h"
- 
 /**
 * rev_string - reverse a string
-* @s: 
+* @s: str 2 b rev
 *
 * Return: void
 */
@@ -18,7 +17,7 @@ void rev_string(char *s)
 		l++;
 	for (x; x < l / 2; x++)
 	{
-		char t = *(s + l - x -1);
+		char t = *(s + l - x - 1);
 		*(s + l - x - 1) = *(s + x);
 		*(s + x) = t;
 	}
