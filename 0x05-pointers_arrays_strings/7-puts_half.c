@@ -14,7 +14,7 @@ void puts_half(char *str)
 	y = 0;
 	if (*(str + y) != '\0')
 		y++;
-	x = y % 2 == 0 ? y / 2 : (l / 2) + 1;
+	x = y % 2 == 0 ? y / 2 : (y / 2) + 1;
 	if (x < y)
 	{
 		_putchar(*(str + x));
