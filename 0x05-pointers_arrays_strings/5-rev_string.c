@@ -1,20 +1,5 @@
 #include "main.h"
-/**
-* swap - swap chars
-* @a: first char
-* @b: 2nd char
-*
-* Return: void
-*/
-
-void swap(char *a, char *b)
-{
-	char s;
-	s = *a;
-	*a = *b;
-	*b = s;
-}
-
+ 
 /**
 * rev_string - reverse a string
 * @s: 
@@ -28,11 +13,13 @@ void rev_string(char *s)
 	int l;
 
 	x = 0;
-	l = _strlen(s);
-	if (x > l)
+	l = 0;
+	while (*(s + l) != '\0')
+		l++;
+	for (x; x < l / 2; x++)
 	{
-		swap(s + l, s + x);
-		l--;
-		x++;
+		char t = *(s + l - x -1);
+		*(s + l - x - 1) = *(s + x);
+		*(s + x) = t;
 	}
 }
