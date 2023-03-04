@@ -9,10 +9,10 @@
 
 char *cap_string(char *str)
 {
-	int i, x
+	int i, x;
 	char p_c = '\t';
 	char w_s[] = {' ', '\t', '\n', ';', '.', '!', '?', '"', '(', ')', 
-'}', '{', ',', '\r'}
+'}', '{', ',', '\r'};
 	char w_s_l = 14;
 	char s_c = 0;
 
@@ -21,7 +21,7 @@ char *cap_string(char *str)
 	{
 		for(x = 0; x < w_s_l; x++)
 		{
-			if (w_s[i]) == p_c)
+			if ((w_s[x]) == p_c)
 			{
 				s_c = 1;
 				break;
