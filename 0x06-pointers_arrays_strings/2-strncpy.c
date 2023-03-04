@@ -2,7 +2,7 @@
 * _strncpy - copies a str and pads with null bytes if necessary
 * @dest: destination of the copied str
 * @src: the str containign str 2 append
-* 
+*
 * Return: dest
 */
 

@@ -1,7 +1,7 @@
 /**
 * string_upper - change all lower case to upper
 * @str: src str
-* 
+*
 * Return: upper(str)
 */
 
