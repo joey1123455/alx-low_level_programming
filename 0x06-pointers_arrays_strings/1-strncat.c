@@ -1,8 +1,9 @@
 /**
-* _strncat - concat 2 str
+* *_strncat - concat 2 str
 * @dest: destination str
 * @src: the str to concat
 * @n: max no of chars frm src
+* Return: concat str
 */
 
 #include "main.h"
