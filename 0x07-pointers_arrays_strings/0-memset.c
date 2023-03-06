@@ -1,6 +1,6 @@
 /**
 * *_memset - fills an array with a const char
-* @*s: dest var
+* @s: dest var
 * @b: const char
 * @n: no of fills
 *
