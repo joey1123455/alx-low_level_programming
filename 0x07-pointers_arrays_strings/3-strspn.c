@@ -29,7 +29,7 @@ unsigned int _strspn(char *s, char *accept)
 				c++;
 			}
 		}
-		if (i == (l / 2))
+		if (i == (l / 2) + 1)
 			break;
 	}
 	return (c);
