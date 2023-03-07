@@ -1,27 +1,23 @@
-/**
-* print_diagsum - prints sum of 2 diagonals
-* @a: 2d arr of  ints
-* @size: size on arr
-*
-*/
-
-#include "main.h"
 #include <stdio.h>
+#include "holberton.h"
 
-void print_diagsum(int *a, int size)
+/**
+ * print_diagsums - sum of the two diagonals of a square matrix of integers
+ * @a: array
+ * @size: size
+ *
+ * Return: void
+ */
+
+void print_diagsums(int *a, int size)
 {
-	int k;
-	int i = 0;
-	int j = size - 1;
-	long s1 = 0;
-	long s2 = 0;
+	int i = 0, j = 0, len1 = 0, len2 = 0;
 
-	for (k = 0; k < size; k++)
+	for (; i < size * size; i += size)
 	{
-		s1 += *(a + i);
-		s2 += *(a + j);
-		i += size + 1;
-		j += size - 1;
+		len1 += a[i + j];
+		len2 += a[i + (size - 1) - j];
+		j++;
 	}
-	printf("%ld, %ld\n", s1, s2);
+	printf("%d, %d\n", len1, len2);
 }
