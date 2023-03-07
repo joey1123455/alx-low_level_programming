@@ -20,13 +20,14 @@ unsigned int _strspn(char *s, char *accept)
 
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		exist = 1;
+		exist = 0;
 		for (j = 0; *(accept + j) != '\0'; j++)
 		{
 			if (*(s + i) == *(accept + j))
 			{
 				c++;
-				exist = 0;
+				exist = 1;
+				break;
 			}
 			if (exist == 1)
 				break;
