@@ -1,4 +1,4 @@
-#include "main.h"
+#include "3-strspn.c"
 #include <stdio.h>
 
 /**
