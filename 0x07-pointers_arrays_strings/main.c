@@ -1,4 +1,4 @@
-#include "4-strpbrk.c"
+#include "5-strstr.c"
 #include <stdio.h>
 
 /**
@@ -12,7 +12,7 @@ int main(void)
     char *f = "world";
     char *t;
 
-    t = _strpbrk(s, f);
+    t = _strstr(s, f);
     printf("%s\n", t);
     return (0);
 }
