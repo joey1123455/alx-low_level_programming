@@ -21,3 +21,5 @@ _putchar.o : return the putchar
 100-atoi.o :  a function that convert a string to an integer
 0-memset.o : function that fills memory with a constant byte
 0-isupper.o : prints alphabet
+
+create_static_lib.sh : makes all c programs into a static library
